@@ -43,21 +43,25 @@ ul {
 }
 
 .carousel_img {
+  position: relative;
+  width: 100%;
+  height: 30rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel_text {
   position: absolute;
-  top: 2rem;
-  left: 2rem;
+  top: 11rem;
+  left: 7rem;
   color: #211a34;
 }
 
-.carousel_img h2 {
+.carousel_text h2 {
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 1000;
   font-size: 2rem;
   text-align: justify;
-}
-
-.carousel-item {
-  transition: transform 1s ease-in-out,-webkit-transform 1s ease-in-out;
 }
 
 .snip1189 {
