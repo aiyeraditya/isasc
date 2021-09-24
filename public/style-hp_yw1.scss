@@ -1,69 +1,70 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+$color-1: #ff885f;
+$color-2: #08afb7;
+$color-3: #e2e1d0;
+$color-4: #211a34;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 100%;
 }
 
 *, *:before, *:after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #211a34;
-  color: #e2e1d0;
+  background-color: $color-3;
+  color: $color-4;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.3;
 }
 
 .nav_bar_bg {
-  background-color: #e2e1d0;
+  background-color: $color-3;
+  color: $color-4;
+  border-bottom: 2px solid rgba(33,26,52, 0.1);
 }
 
-.img_logo {
+.img_logo{
   width: auto;
   height: 40px;
   margin-left: 50px;
 }
 
 ul {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   padding: 0px;
 }
 
 .dropdown:hover .dropdown-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  top: 100%;
+  flex-direction: column;
+  top: 100%; // remove the gap so it doesn't close
   right: 0;
   left: auto;
   z-index: 99;
 }
 
-.carousel_img {
+
+
+.carousel_img{
   position: relative;
-  width: 100%;
-  height: 30rem;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 100%; 
+  height: 30rem; 
+  object-fit: cover;
   z-index: 1;
 }
 
-.carousel_text1 {
-  position: absolute;
+.carousel_text1{
+  position: absolute; 
   top: 2rem;
   left: 2rem;
-  color: #211a34;
+  color: $color-4;
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 1000;
   font-size: 2rem;
@@ -71,11 +72,11 @@ ul {
   z-index: 2;
 }
 
-.carousel_text2 {
-  position: absolute;
+.carousel_text2{
+  position: absolute; 
   top: 12rem;
   left: 2rem;
-  color: #211a34;
+  color: $color-4;
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 1000;
   font-size: 2rem;
@@ -83,8 +84,8 @@ ul {
   z-index: 2;
 }
 
-.carousel_text3 {
-  position: absolute;
+.carousel_text3{
+  position: absolute; 
   top: 16rem;
   left: 2rem;
   color: blanchedalmond;
@@ -95,9 +96,20 @@ ul {
   z-index: 2;
 }
 
-.card-bg-custom {
-  background-color: #211a34;
+.card-bg-custom{
+  background-color: $color-3;
+  color: $color-4;
 }
+
+.footer-style{
+    background-color: $color-2;
+    color: $color-4;
+}
+
+.footer-icons{
+    color: $color-4;
+}
+
 
 .snip1189 {
   font-family: 'Raleway', Arial, sans-serif;
@@ -108,37 +120,28 @@ ul {
   position: -webkit-sticky;
   position: sticky;
 }
-
 .snip1189 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-
 .snip1189 li {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   list-style: outside none none;
   margin: 0.2 1em;
   padding: 0 1em;
 }
-
 .snip1189 a {
   padding: 0.5em 0.8em;
   margin: 0.2em 0;
   display: block;
-  color: #211a34;
+  color: $color-4;
   font-weight: 100;
   position: relative;
   text-decoration: none;
 }
-
 .snip1189 a:before,
 .snip1189 a:after {
   height: 14px;
@@ -149,31 +152,27 @@ ul {
   transition: all 0.35s ease;
   opacity: 0;
 }
-
 .snip1189 a:before {
   left: 0;
   top: 0;
-  border-left: 3px solid #ff885f;
-  border-top: 3px solid #ff885f;
+  border-left: 3px solid $color-1;
+  border-top: 3px solid $color-1;
   -webkit-transform: translate(100%, 50%);
   transform: translate(100%, 50%);
 }
-
 .snip1189 a:after {
   right: 0;
   bottom: 0;
-  border-right: 3px solid #ff885f;
-  border-bottom: 3px solid #ff885f;
+  border-right: 3px solid $color-1;
+  border-bottom: 3px solid $color-1;
   -webkit-transform: translate(-100%, -50%);
   transform: translate(-100%, -50%);
 }
-
 .snip1189 a:hover,
 .snip1189 .current a {
-  color: #211a34;
+  color: $color-4;
   font-weight: 400;
 }
-
 .snip1189 a:hover:before,
 .snip1189 .current a:before,
 .snip1189 a:hover:after,
@@ -182,4 +181,3 @@ ul {
   transform: translate(0%, 0%);
   opacity: 1;
 }
-/*# sourceMappingURL=style-hp1.css.map */
