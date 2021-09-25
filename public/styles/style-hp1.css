@@ -97,6 +97,15 @@ ul {
 
 .card-bg-custom {
   background-color: #211a34;
+  color: white;
+}
+
+.footer-style {
+  background-color: #e2e1d0;
+}
+
+.footer-icons {
+  color: #211a34;
 }
 
 .snip1189 {
@@ -170,8 +179,7 @@ ul {
 
 .snip1189 a:hover,
 .snip1189 .current a {
-  color: #211a34;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .snip1189 a:hover:before,
@@ -182,4 +190,3 @@ ul {
   transform: translate(0%, 0%);
   opacity: 1;
 }
-/*# sourceMappingURL=style-hp1.css.map */
