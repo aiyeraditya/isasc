@@ -2,13 +2,13 @@ $color-1: #ff885f;
 $color-2: #08afb7;
 $color-3: #e2e1d0;
 $color-4: #211a34;
-$body-background: #211a34;
-$body-color: #e2e1d0;
-$navbar-background: #e2e1d0;
-$card-background: #211a34;
-$card-content: white;
+$body-background: white;
+$body-color: $color-4;
+$navbar-background: white;
+$card-background: white;
+$card-content: #211a34;
 $navbar-hover-border: #ff885f;
-$footer-background: #e2e1d0;
+$footer-background: white;
 $footer-icon: #211a34;
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
@@ -38,7 +38,13 @@ body {
 .img_logo{
   width: auto;
   height: 40px;
-  margin-left: 50px;
+  margin-left: 1rem;
+}
+
+.img_logo2{
+  width: auto;
+  height: 40px;
+  align-content: center;
 }
 
 ul {
