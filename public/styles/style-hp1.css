@@ -24,18 +24,13 @@ body {
   background-color: white;
 }
 
-.navbar-brand {
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  left: 50%;
-  position: absolute;
-  padding: 0px;
-}
-
-.navbar-brand > img {
-  height: 100%;
-  width: auto;
-  padding: 7px 14px;
+.navbar .navbar-collapse {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
 }
 
 .img_logo {
@@ -45,6 +40,10 @@ body {
 }
 
 .img_logo2 {
+  position: absolute;
+  -webkit-transform: translate(-50%, -30%);
+          transform: translate(-50%, -30%);
+  left: 50%;
   width: auto;
   height: 40px;
 }
@@ -84,11 +83,15 @@ ul {
   top: 2rem;
   left: 2rem;
   color: #211a34;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: 'Nunito', Arial, sans-serif;
   font-weight: 1000;
   font-size: 2rem;
   text-align: justify;
   z-index: 2;
+}
+
+.carousel-offset {
+  margin-top: 2rem;
 }
 
 .carousel_text2 {
@@ -96,7 +99,7 @@ ul {
   top: 12rem;
   left: 2rem;
   color: #211a34;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: 'Nunito', Arial, sans-serif;
   font-weight: 1000;
   font-size: 2rem;
   text-align: justify;
@@ -108,7 +111,7 @@ ul {
   top: 16rem;
   left: 2rem;
   color: blanchedalmond;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: 'Nunito', Arial, sans-serif;
   font-weight: 1000;
   font-size: 2rem;
   text-align: justify;
@@ -120,6 +123,23 @@ ul {
   color: #211a34;
 }
 
+.btn {
+  width: 40%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+
+.above-card-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Nunito', Helvetica, sans-serif;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
 .footer-style {
   background-color: white;
 }
@@ -129,7 +149,7 @@ ul {
 }
 
 .snip1189 {
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: 'Nunito', Arial, sans-serif;
   text-align: right;
   text-transform: lowercase;
   font-weight: 100;
@@ -159,10 +179,10 @@ ul {
 }
 
 .snip1189 a {
-  padding: 0.5em 0.8em;
+  padding: 0.5em 0.1em;
   margin: 0.2em 0;
   display: block;
-  color: #211a34;
+  color: #ff885f;
   font-weight: 100;
   position: relative;
   text-decoration: none;

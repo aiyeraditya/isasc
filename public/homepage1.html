@@ -13,20 +13,20 @@
 <body>
 
 
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light nav_bar_bg justify-content-center">
+  <nav class="navbar sticky-top navbar-expand-xl navbar-light nav_bar_bg justify-content-center">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="LogoAssets/SVG/LogoAcronym_Black.svg" alt="ISASC" class = "img_logo">
       </a>
-      <div class="navbar-text me-auto d-inline-block mb-2 mb-lg-0">
-        <!-- <img src="LogoAssets/SVG/FullName_Black.svg" alt="ISASC" class = "img_logo2"> -->
-        Please Center
+      <div class="mx-auto d-none d-md-block">
+         <img src="LogoAssets/SVG/FullName_Black.svg" alt="ISASC" class = "img_logo2">
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 snip1189">
+        <ul class="ms-auto mb-2 mb-lg-0 snip1189">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -51,19 +51,17 @@
     </div>
   </nav>
 
-  <div class="mt-md-5 col-md-12">
-</div>
+  <!-- <div class="mt-md-5 col-md-12"> </div> -->
 
-      <div id="carouselExampleIndicators" class="carousel slide  carousel-fade" data-bs-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
 
-        <div class = "container">
+        <div class = "container carousel-offset">
         <div class="carousel-inner container">
-          <div class="col-1"></div>
           <div class="carousel-item active">
             <img class="d-block w-100 carousel_img" src="images/carousel/img1.jpg" alt="First slide">
             <div class="carousel_text1 d-none d-md-block">
@@ -95,8 +93,10 @@
       </div>
     </div>
 
-
-    <div class="mt-md-5 col-md-12">
+    <div class="row justify-content-center">
+      <div class="col above-card-text">
+        Here's What We Do
+      </div>
     </div>
 
     <div class="container-fluid">
@@ -108,9 +108,9 @@
               <h5 class="card-title">Broadcasting Information</h5>
               <p class="card-text">Information..... Out There!</p>
             </div>
-            <div class="card-footer align-self-center">
-              <small> Learn More</small>
-            </div>
+            <button type="button" class="btn btn-primary">
+              Learn More
+            </button>
           </div>
         </div>
         <div class="col-lg-3">
@@ -120,9 +120,9 @@
               <h5 class="card-title">Connecting People</h5>
               <p class="card-text">Making Collaborations Possible</p>
             </div>
-            <div class="card-footer align-self-center">
-              <small> Learn More</small>
-            </div>
+            <button type="button" class="btn btn-primary">
+              Learn More
+            </button>
           </div>
         </div>
         <div class="col-lg-3">
@@ -132,14 +132,14 @@
               <h5 class="card-title">Celebrating Science</h5>
               <p class="card-text">Good things deserve an audience</p>
             </div>
-            <div class="card-footer align-self-center">
-              <small> Learn More</small>
-            </div>
+            <button type="button" class="btn btn-primary">
+              Learn More
+            </button>
           </div>
         </div>
       </div>
     </div>
-
+    
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted" style="margin-top: 10%;">
   <section class="d-flex justify-content-center footer-style">
