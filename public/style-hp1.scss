@@ -12,6 +12,8 @@ $footer-background: white;
 $footer-icon: #211a34;
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 
 html {
   box-sizing: border-box;
@@ -35,6 +37,19 @@ body {
   background-color: $navbar-background;
 }
 
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  padding: 0px
+}
+
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+  padding: 7px 14px;
+}
+
 .img_logo{
   width: auto;
   height: 40px;
@@ -44,7 +59,6 @@ body {
 .img_logo2{
   width: auto;
   height: 40px;
-  align-content: center;
 }
 
 ul {
