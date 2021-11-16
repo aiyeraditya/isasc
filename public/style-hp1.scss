@@ -10,6 +10,7 @@ $card-content: #211a34;
 $navbar-hover-border: #ff885f;
 $footer-background: white;
 $footer-icon: #211a34;
+$button-color1: $color-1;
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
@@ -18,6 +19,8 @@ $footer-icon: #211a34;
 html {
   box-sizing: border-box;
   font-size: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 *, *:before, *:after {
@@ -31,6 +34,8 @@ body {
   color: $body-color;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.3;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .nav_bar_bg {
@@ -46,6 +51,12 @@ body {
   width: auto;
   height: 40px;
   margin-left: 1rem;
+}
+
+.whatwedo_img{
+  height: 8rem;
+  width: auto;
+
 }
 
 .img_logo2{
@@ -71,11 +82,15 @@ ul {
   z-index: 99;
 }
 
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
 
 .carousel_img{
   position: relative;
-  width: 100%; 
-  height: 30rem; 
+  width: 70%; 
+  height: 32rem; 
   object-fit: cover;
   z-index: 1;
 }
@@ -92,9 +107,32 @@ ul {
   z-index: 2;
 }
 
+.carousel_text4{
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  color: white;
+  text-shadow: 2px 2px black; 
+  transform: translate(-50%, -50%);
+  font-family: 'Nunito', Arial, sans-serif;
+  font-weight: 1000;
+  font-size: 3rem;
+  text-align: justify;
+  z-index: 2;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: $button-color1;
+    border-color: $button-color1;
+}
 .carousel-offset{
   margin-top: 2rem;
 }
+
 
 .carousel_text2{
   position: absolute; 
@@ -147,6 +185,33 @@ ul {
 
 .footer-icons{
   color: $footer-icon;
+}
+
+.card-wrapper {
+  margin: 1% 0;
+}
+
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 10rem; /* note i used vw not px for better responsive */
+  height: 10rem;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+  line-height: initial;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 .snip1189 {
