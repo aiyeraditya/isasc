@@ -1,291 +1,5 @@
 
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Ouyang">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/Ouyang.jpg" alt="Yingwei">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title">Dr. Yingwei Ouyang</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Ali">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/Ali.jfif" alt="Mazhar">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title">Prof. Dr.  Mazhar Ali</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Siala">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/Siala.JPG" alt="Kais">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title">Dr. Kais Siala</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Ivanov">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/Ivanov.jpg" alt="Boris">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title"> Boris Ivanov</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Simmonds">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/you_.png" alt="Steven">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title">Dr. Steven Simmonds</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Waltho">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/Waltho.jpg" alt="Anita">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title"> Anita Waltho</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Celotto">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/Celotto.jpg" alt="Laura">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title"> Laura Celotto</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Paszko">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/Paszko.jpeg" alt="Izabela">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title"> Izabela Paszko</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Chakravarty">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/Chakravarty.JPG" alt="Rohit">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title"> Rohit Chakravarty</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Hüppe">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/you_.png" alt="Natkritta">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title"> Natkritta Hüppe</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Murphy">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/you_.png" alt="Caoileann">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title">Dr. Caoileann Murphy</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Kersting">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/Kersting.jpeg" alt="Magdalena">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title">Dr. Magdalena Kersting</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Ypma">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/Ypma.jpg" alt="Stefanie">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title">Dr. Stefanie Ypma</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Dücker">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/you_.png" alt="Lisa">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title"> Lisa Dücker</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Mchedlishvili">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/Mchedlishvili.jpg" alt="Alex">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title"> Alex Mchedlishvili</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Mendes">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/Mendes.jpg" alt="Pedro Simao">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title">Dr. Pedro Simão Mendes</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Devulapalli">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/you_.png" alt="Vivek">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title"> Vivek Devulapalli</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Gandolfo">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/Gandolfo.jpg" alt="Amadeo">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title">Dr. Amadeo Gandolfo</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Tuli">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/you_.png" alt="Tadele Belay">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title"> Tadele Belay Tuli</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Baccari">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/Baccari.jpg" alt="Flavio">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title">Dr. Flavio Baccari</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Gawel">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/Gawel.jpg" alt="Ina">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title"> Ina Gawel</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
-    <div class="col-lg-3">
-      <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-Kutlu">
-        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-          <img class="w-100 h-100" src="../images/team/you_.png" alt="Alkım">
-        </div>
-        <div class="card-body text-center">
-          <div class="card-title"> Alkım Kutlu</div>
-          <p class="card-text">  <br>  </p>
-        </div>
-      </div>
-    </div>
-
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Ouyang" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -322,9 +36,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Ali" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -361,9 +76,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Siala" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -398,9 +114,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Ivanov" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -437,9 +154,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Simmonds" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -476,9 +194,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Waltho" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -513,9 +232,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Celotto" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -554,9 +274,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Paszko" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -589,9 +310,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Chakravarty" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -614,7 +336,7 @@
   
                     
                     
-  <a class="me-2" href = "www.blahkanas.wordpress.com"><i class="bi-globe footer-icons"></i></a>
+  <a class="me-2" href = "https://blahkanas.wordpress.com/"><i class="bi-globe footer-icons"></i></a>
   
                   </div>
                 </div>
@@ -628,9 +350,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Hüppe" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -667,9 +390,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Murphy" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -706,9 +430,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Kersting" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -729,7 +454,7 @@
                     
                     
                     
-  <a class="me-2" href = "www.magdalenakersting.com"><i class="bi-globe footer-icons"></i></a>
+  <a class="me-2" href = "http://www.magdalenakersting.com/"><i class="bi-globe footer-icons"></i></a>
   
                   </div>
                 </div>
@@ -747,9 +472,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Ypma" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -784,9 +510,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Dücker" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -823,9 +550,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Mchedlishvili" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -856,9 +584,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Mendes" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -895,9 +624,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Devulapalli" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -932,9 +662,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Gandolfo" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -955,7 +686,7 @@
                     
                     
                     
-  <a class="me-2" href = "www.revistakamandi.com"><i class="bi-globe footer-icons"></i></a>
+  <a class="me-2" href = "http://www.revistakamandi.com/"><i class="bi-globe footer-icons"></i></a>
   
                   </div>
                 </div>
@@ -969,9 +700,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Tuli" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -1008,9 +740,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Baccari" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -1049,9 +782,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Gawel" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -1084,9 +818,10 @@
       </div>
     </div>
   </div>
+  </div>
   
 
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-Kutlu" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -1111,7 +846,7 @@
   <a class="me-2" href = "https://www.linkedin.com/in/alkimkutlu/ "><i class="bi-linkedin footer-icons"></i></a>
   
                     
-  <a class="me-2" href = "www.alkimkutlu.com"><i class="bi-globe footer-icons"></i></a>
+  <a class="me-2" href = "http://www.alkimkutlu.com/"><i class="bi-globe footer-icons"></i></a>
   
                   </div>
                 </div>
@@ -1124,5 +859,6 @@
         </div>
       </div>
     </div>
+  </div>
   </div>
   

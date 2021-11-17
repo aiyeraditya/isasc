@@ -22,7 +22,6 @@ for person_ in df_.iloc:
   
 
   person_card = f"""
-  <div class="mx-auto row row-cols-1 row-cols-md-3 g-5 justify-content-md-center" style="max-width: 70%;">
     <div class="col-lg-3">
       <div class="card border-0 card-hover" data-bs-toggle="modal" data-bs-target="#modal-{last_name}">
         <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
@@ -34,7 +33,7 @@ for person_ in df_.iloc:
         </div>
       </div>
     </div>"""
-  print(person_card)
+  #print(person_card)
 
 for person_ in df_.iloc:
   name = person_['Name']
@@ -86,7 +85,7 @@ for person_ in df_.iloc:
 
 
   person_modal = f"""
-  <div class="modal fade" id="modal-maz" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-{last_name}" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
@@ -116,6 +115,7 @@ for person_ in df_.iloc:
         </div>
       </div>
     </div>
+  </div>
   </div>
   """
   print(person_modal)
