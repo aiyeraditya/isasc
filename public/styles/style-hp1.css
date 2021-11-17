@@ -54,7 +54,11 @@ body {
           transform: translate(-50%, -30%);
   left: 50%;
   width: auto;
-  height: 40px;
+  height: 3.5vw;
+}
+
+.margins-custom {
+  max-width: 80%;
 }
 
 ul {
@@ -212,9 +216,33 @@ ul {
   line-height: initial;
 }
 
-.card:hover {
+.card-hover:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.txt-indent > li {
+  margin-left: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.list-spacing > li {
+  margin-bottom: 0.5rem;
+}
+
+.header-title {
+  margin-bottom: 2rem;
+}
+
+.image-with-caption {
+  text-align: center;
+  color: gray;
+}
+
+.main-text {
+  line-height: 2rem;
+  text-align: justify;
+  font-size: 1.1rem;
 }
 
 .snip1189 {
@@ -243,13 +271,13 @@ ul {
       -ms-flex-direction: row;
           flex-direction: row;
   list-style: outside none none;
-  margin: 0.2 1em;
-  padding: 0 1em;
+  margin: 0.1em 0.001em;
+  padding: 0.1em 0.001em;
 }
 
 .snip1189 a {
-  padding: 0.5em 0.1em;
-  margin: 0.2em 0;
+  padding: 0.4em 0.1em;
+  margin: 0.1em 0.4em;
   display: block;
   color: #ff885f;
   font-weight: 100;
