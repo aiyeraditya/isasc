@@ -166,8 +166,12 @@ ul {
   color: #211a34;
 }
 
-.btn {
+.btn-width-40 {
   width: 40%;
+}
+
+.btn-width-90 {
+  width: 90%;
 }
 
 @media only screen and (max-width: 1000px){
@@ -265,7 +269,6 @@ ul {
   margin-left: 4rem;
   margin-bottom: 1.5rem;
 }
-
 
 .snip1189 {
   font-family: 'Nunito', Arial, sans-serif;

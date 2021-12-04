@@ -10,9 +10,10 @@
   <title>
 Join Us
 </title>
+  <link rel="icon" type="image/png" href="/static/images/favicon.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="../static/styles/style-hp1.css">
+  <link rel="stylesheet" href="/static/styles/style-hp1.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
@@ -21,13 +22,14 @@ Join Us
 
 <body>
     
+
 <nav class="navbar sticky-top navbar-expand-xl navbar-light nav_bar_bg justify-content-center">
     <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html">
-        <img src="../static/LogoAssets/LogoAcronym_Black.svg" alt="ISASC" class="img_logo">
+      <a class="navbar-brand" href="/">
+        <img src="/static/LogoAssets/LogoAcronym_Black.svg" alt="ISASC" class="img_logo">
       </a>
       <div class="mx-auto d-none d-md-block">
-        <img src="../static/LogoAssets/FullName_Black.svg" alt="ISASC" class="img_logo2">
+        <img src="/static/LogoAssets/FullName_Black.svg" alt="ISASC" class="img_logo2">
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,21 +39,21 @@ Join Us
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="ms-auto mb-2 mb-lg-0 snip1189">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="index.html#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               About Us <i class="bi-caret-down-fill"></i>
             </a>
             <ul class="dropdown-menu dropdown-menu-end nav_bar_bg" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="../our_story/index.html">our story</a></li>
-              <li><a class="dropdown-item" href="../about_us/index.html">our mission</a></li>
-              <li><a class="dropdown-item" href="../team/index.html">meet our team</a></li>
+              <li><a class="dropdown-item" href="/our_story/">our story</a></li>
+              <li><a class="dropdown-item" href="/about_us/">our mission</a></li>
+              <li><a class="dropdown-item" href="/team/">meet our team</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../activities/index.html">activities</a>
+            <a class="nav-link active" aria-current="page" href="/activities/">activities</a>
           </li>
           <!-- <li class="nav-item dropdown">
             <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -66,8 +68,7 @@ Join Us
             </ul>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Join Us</a>
-            <!-- href="https://forms.gle/tmo9EMPC7bpvT5iE8" -->
+            <a class="nav-link" href="/join_us/">Join Us</a>
           </li>
         </ul>
       </div>
@@ -78,15 +79,15 @@ Join Us
 
     
 
-<div class="row justify-content-center align-items-center mx-auto" style="max-width: 80%;">
-    <div class="col-md-10 header-title mt-5 text-center">
+<div class="row justify-content-center align-items-center mx-auto mt-5">
+    <div class="col-md-10 col-sm-12 col-xs-12 header-title mt-5 text-center">
         <h1> Join Us </h1>
     </div>
 </div>
 
 <div class="row justify-content-center d-flex">
     <div class='col-lg-4 col-md-6 col-sm-10 col-10'>
-        <form id = "join-form">
+        <form method = 'POST' id = "join-form"> <input type="hidden" name="csrfmiddlewaretoken" value="KOstQUjf9QaemHvkr5k6WiUryC1i3XtabFoBjcPqPAl6Ituo6GjTUqHXwGHntREQ">
             <div class="form-group">
                 <label for="InputName">What's your Name? </label>
                 <input type="text" class="form-control" id="InputName" placeholder="Enter Name" name = "name" required>
@@ -107,29 +108,38 @@ Join Us
     </div>
 </div>
 
+<div style="display: none;">
+    <a href = "thanks.html"> </a>
+</div>
 
-  <footer class="text-center text-lg-start bg-light text-muted" style="margin-top: 10%;">
-    <section class="d-flex justify-content-center footer-style">
-      <div style="margin-top: 3%; font-size: 2rem;">
-        <a class="me-4"><i class="bi-facebook footer-icons"></i></a>
-        <a class="me-4"><i class="bi-twitter footer-icons"></i></a>
-        <a class="me-4"><i class="bi-instagram footer-icons"></i></a>
-        <a class="me-4"><i class="bi-linkedin footer-icons"></i></a>
-        <a class="me-4"><i class="bi-github footer-icons"></i></a>
+
+
+    <!-- Footer Starts Here-->
+    <footer class="text-center text-lg-start bg-light text-muted" style="margin-top: 10%;">
+      <section class="d-flex justify-content-center footer-style">
+        <div style="margin-top: 3%; font-size: 2rem;">
+          <a class="me-4"><i class="bi-facebook footer-icons"></i></a>
+          <a class="me-4"><i class="bi-twitter footer-icons"></i></a>
+          <a class="me-4"><i class="bi-instagram footer-icons"></i></a>
+          <a class="me-4"><i class="bi-linkedin footer-icons"></i></a>
+          <a class="me-4"><i class="bi-github footer-icons"></i></a>
+        </div>
+      </section>
+  
+      <div class="text-center p-4 footer-style">
+        <a class="text-reset">
+          Unsubscribe from our mailing list </a>
       </div>
-    </section>
+      
+      
+      <div class="text-center p-4 footer-style">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold"> ISASC </a>
+      </div>
+    </footer>
+    <!-- Footer Ends Here-->
 
-    <div class="text-center p-4 footer-style">
-      <a class="text-reset">
-        Unsubscribe from our mailing list </a>
-    </div>
-    <!--  href="https://forms.gle/CEja9SB2vEJsDMD66" -->
-
-    <div class="text-center p-4 footer-style">
-      © 2021 Copyright:
-      <a class="text-reset fw-bold"> ISASC </a>
-    </div>
-  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -137,9 +147,13 @@ Join Us
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
-  <script src="../static/js/form_submit.js"></script>
+  
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script src="/static/js/form_submit.js"></script>
+
+
+
 </body>
 
 </html>
